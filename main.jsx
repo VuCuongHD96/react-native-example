@@ -1,9 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import PropsExample from './PropsExample.jsx';
+import UseContextExample from './useContextExample/UseContextExample.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PropsExample />
+    <UseContextExample />
   </StrictMode>,
 );
